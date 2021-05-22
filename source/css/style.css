@@ -51,7 +51,7 @@ textarea {
 	color:#bd0d0d;
 }
 .border-bottom{
-	padding: 0.5rem 0rem; 
+	padding: 0.5rem 0rem;
 	border-bottom: 3px solid brown;
 }
 @media screen and (min-width:1280px) {
@@ -131,7 +131,7 @@ img.thumbnail {
 
 .footer-logo img,
 .navbar-logo img {
-	max-height: 1.75rem
+	max-height: 3.75rem
 }
 
 .navbar-main {
@@ -1361,11 +1361,11 @@ figure.highlight .title {
     width: 70% !important;
 	border-radius:0;
 	background-color: #000;
-	
+
 }
 .is-show-mobile-menu a{
 	color:#cccccc;
-} 
+}
 #catalog-over-box{
 	display: none;
 	position: fixed;
@@ -1425,8 +1425,8 @@ figure.highlight .title {
 /* ========================================================== */
 
 .block-img-vh{
-	display: flex;   
-    align-items:center;    
+	display: flex;
+    align-items:center;
     display:-webkit-flex;
 	margin-top:0.5vh;
 }
@@ -1454,12 +1454,12 @@ figure.highlight .title {
 	border-radius: 4px;
 	width:100%;
 	height:6.782rem;
-	cursor: pointer;  
-    transition: all 0.6s;  
-} 
-.banner-height-2 img:hover{  
-	transform: scale(0.95);  
-}  
+	cursor: pointer;
+    transition: all 0.6s;
+}
+.banner-height-2 img:hover{
+	transform: scale(0.95);
+}
 
 /** 默认隐藏评论 */
 .journals-comment{
@@ -1468,8 +1468,8 @@ figure.highlight .title {
 
 /** 公告&广告样式*/
 .banner-advert{
-  position: relative; 
-  margin-bottom:0.5rem; 
+  position: relative;
+  margin-bottom:0.5rem;
   height:500px;
   display:none;
 }

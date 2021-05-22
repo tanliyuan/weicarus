@@ -30,10 +30,10 @@
                 <a class="navbar-item search" title="搜索" onclick="openSearchPanel()" href="javascript:;">
                     <i class="fas fa-search"></i>&nbsp;&nbsp;搜索
                 </a>
-              	${settings.links_top!}
-              	<a class="navbar-item" href="javascript:;" onclick="filtration_click()"> 
-              		<i class="fas fa-user"></i>&nbsp;&nbsp;个人信息
-        		</a>
+<#--              	${settings.links_top!}-->
+<#--              	<a class="navbar-item" href="javascript:;" onclick="filtration_click()"> -->
+<#--              		<i class="fas fa-user"></i>&nbsp;&nbsp;个人信息-->
+<#--        		</a>-->
           	</div>
 		</div>
 	</div>
