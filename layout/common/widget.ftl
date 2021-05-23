@@ -1,6 +1,6 @@
 <#macro widget position,isShowMenu>
 <div class="column is-4-tablet is-4-desktop <#if position=='right'>is-3-widescreen <#else> is-2-widescreen </#if>   <#if position=='right'>is-hidden-touch is-hidden-desktop-only</#if> <#if position == 'left'>has-order-1<#else>has-order-3</#if> column-${position} <%= sticky_class(position) %>">
-    <#if position == 'left'> 
+    <#if position == 'left'>
         <#if isShowMenu == 'urlNavMenuShow'>
 			<#include "../widget/url_menu_tag.ftl">
             <#include "../plugin/show-mobile-menu.ftl">
@@ -23,10 +23,9 @@
 		</#if>
     </#if>
     <#if position == 'right'>
-      	<#-- if settings.sidebar_profile!true>
+      	<#if settings.sidebar_profile!true>
             <#include "../widget/profile.ftl">
         </#if>
-          -->
         <#if settings.sidebar_recentpost!true>
             <#include "../widget/recent_posts.ftl">
         </#if>

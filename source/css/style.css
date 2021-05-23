@@ -1475,7 +1475,7 @@ figure.highlight .title {
   position: absolute;
   right: 0.4rem;
   top: 0;
-  color: #FFFFFF;
+  color: #ff6732;
   cursor: pointer;
   transition: all .5s linear .3s;
   -o-transition: all .5s linear .3s; /*兼容parsto内核*/
