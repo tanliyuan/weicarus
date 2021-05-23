@@ -749,11 +749,6 @@ img.thumbnail {
 	height: 100%
 }
 
-.footer-logo img,
-.navbar-logo img {
-	max-height: 1.75rem
-}
-
 .navbar-main {
 	box-shadow: 0 4px 10px rgba(0, 0, 0, .05)
 }
