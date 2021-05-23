@@ -1,8 +1,11 @@
 <div class="card widget">
+    <header class="card-header">
+        <p class="card-header-title">
+            最新
+        </p>
+
+    </header>
     <div class="card-content">
-        <h3 class="menu-label">
-            最新资源
-        </h3>
         <@postTag method="latest" top="5">
             <#list posts as post>
                 <article class="media">
