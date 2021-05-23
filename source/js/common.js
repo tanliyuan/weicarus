@@ -115,7 +115,7 @@ $(function() {
 			}
 		});
 	});
-	
+
 
 	/**
      * 处理手机端目录
@@ -128,15 +128,15 @@ $(function() {
 		$("#catalog-over-box").show();
 		return false;
 	});
-	
+
 	// 判断为手机才执行手机端目录效果
 	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 		// 目录中的链接
 		$("[data-catalog-target]").on("click", function () {
 			$("#menu-box").css({right: "-70%"});
 			$("#catalog-over-box").hide();
-		}); 
-	}    
+		});
+	}
 	// 点击目录后的蒙版
 	$("#catalog-over-box").click('on', function () {
 		$("#menu-box").animate({right: "-70%"}, 300, () => {
@@ -221,15 +221,15 @@ $(function() {
 		$("#catalog-over-box").show();
 		return false;
 	});
-	
+
 	// 判断为手机才执行手机端目录效果
 	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 		// 目录中的链接
 		$("[data-catalog-target]").on("click", function () {
 			$("#url-nav-menu-box").css({right: "-70%"});
 			$("#catalog-over-box").hide();
-		}); 
-	}    
+		});
+	}
 	// 点击目录后的蒙版
 	$("#catalog-over-box").click('on', function () {
 		$("#url-nav-menu-box").animate({right: "-70%"}, 300, () => {
@@ -260,8 +260,8 @@ $(".comment-btn").click(function(){
 	var ele = that.parents(".card-content").children('.journals-comment');
 	ele.is(':hidden') ? that.find('span').text('收起评论') : that.find('span').text('评论');
 	ele.slideToggle();
-	
-	
+
+
 });
 
 /***
@@ -269,7 +269,7 @@ $(".comment-btn").click(function(){
 **/
 $(".close-btn").click(function(){
 	var that = $(this);
-	var ele = that.parents(".banner-advert");
+	var ele = that.parents(".banner-guanggao");
 	ele.slideUp();
 });
 /***
@@ -277,7 +277,7 @@ $(".close-btn").click(function(){
 **/
 function lazyAdvert(){
   setTimeout(function(){
-	$(".banner-advert").slideDown('slow');
+	$(".banner-guanggao").slideDown('slow');
   },1000);
 }
 lazyAdvert();

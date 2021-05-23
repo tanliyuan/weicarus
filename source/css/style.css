@@ -1462,13 +1462,13 @@ figure.highlight .title {
 }
 
 /** 公告&广告样式*/
-.banner-advert{
+.banner-guanggao{
   position: relative;
   margin-bottom:0.5rem;
   height:500px;
   display:none;
 }
-.banner-advert>a>img{
+.banner-guanggao>a>img{
 	width:100%;
 }
 .close-btn{

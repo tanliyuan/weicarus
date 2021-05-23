@@ -1,5 +1,5 @@
-<div class="card is-paddingless is-clipped banner-advert" >
-  <span class="close-btn" title="关闭广告">
+<div class="card is-paddingless is-clipped banner-guanggao" >
+  <span class="close-btn" title="关闭">
     	<i class="fa fa-times-circle fa-2x"  ></i>
   </span>
   <a href="${settings.advert_href!'#none'}" target="_blank" title="${settings.advert_title!'暂无广告，建议关闭显示'}">

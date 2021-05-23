@@ -1,7 +1,7 @@
 <footer class="footer">
     <div class="container">
         <div class="level">
-            <div class="level-start has-text-centered-mobile">
+            <div class="level-item has-text-centered-mobile">
                 <a class="footer-logo is-block has-mb-6" href="${context!}">
                     <#if options.blog_logo?? && options.blog_logo!=''>
                         <img src="${options.blog_logo!}" alt="${options.blog_title!}" height="28">
@@ -13,10 +13,10 @@
                     Copyright&nbsp;&copy; ${.now?string('yyyy')} ${options.blog_title!}&nbsp;
                   	<#--  ${user.nickname!}&nbsp;  -->
                     <br />
-                  	Thank for
-                    <a href="https://mumusur.com/" target="_blank">Halo</a> & <a
-                            href="https://github.com/halo-dev/halo-theme-icarus" target="_blank">Icarus</a>
-                    <br />
+<#--                  	Thank for-->
+<#--                    <a href="https://mumusur.com/" target="_blank">Halo</a> & <a-->
+<#--                            href="https://github.com/halo-dev/halo-theme-icarus" target="_blank">Icarus</a>-->
+<#--                    <br />-->
                     <@global.footer />
                 </p>
             </div>
@@ -28,8 +28,8 @@
         </div>
     </div>
 </footer>
-          
-          
+
+
 <!-- 点击过滤 弹出抽屉 -->
 <div id="sq_drawer">
   	<span class="column has-text-centered has-text-primary" >
