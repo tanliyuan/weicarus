@@ -21,10 +21,12 @@
     <meta name="twitter:title" content="${title!}">
     <meta name="twitter:description" content="${meta_description!}">
     <meta name="twitter:image" content="${user.avatar!}">
+    <meta name="baidu-site-verification" content="code-wHfKGcv9Wl" />
 	<@global.head />
     <link rel="canonical" href="${canonical!}" />
     <link rel="alternative" href="${atom_url!}" title="${blog_title!}" type="application/atom+xml">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tanliyuan/yhzxz-bulma/dist/css/mystyles.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma-helpers/0.4.0/css/bulma-helpers.min.css" crossorigin="anonymous" />
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.4.1/css/all.min.css">
     <link rel="stylesheet" href="//fonts.loli.net/css?family=Ubuntu:400,600|Source+Code+Pro">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css">
@@ -65,7 +67,7 @@
 </head>
 <body class="is-3-column">
 	<@navbar 'page' />
-    <section class="section">
+    <section class="section px-7">
         <div class="container">
           	<#if settings.advert_enable!false>
           		<#include "common/advert.ftl">
@@ -75,7 +77,7 @@
             </#if>
             <div class="columns">
               	<#if type == "index">
-                  	<div class="column is-8-tablet is-8-desktop is-7-widescreen has-order-2 column-main">
+                <div>
                 <#elseif type == "journals">
 					<div class="column is-8-tablet is-8-desktop is-9-widescreen has-order-2 column-main">
                 <#else>
@@ -84,8 +86,8 @@
                 	<#nested />
                 </div>
                 <#if type == "index">
-                  	<@widget 'right','menuHide' />
-                  	<@widget 'left','menuHide' />
+<#--                  	<@widget 'right','menuHide' />-->
+<#--                  	<@widget 'left','menuHide' />-->
 				<#elseif type == "urlNav">
                   	<@widget 'left','urlNavMenuShow'/>
                 <#elseif type == "journals">

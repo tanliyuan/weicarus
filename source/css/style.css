@@ -448,7 +448,7 @@ img.thumbnail {
 
 .has-link-black-ter:hover,
 .has-link-grey:hover {
-	color: #3273dc !important
+	color: #ff6732 !important
 }
 
 .has-link-grey {
@@ -457,6 +457,11 @@ img.thumbnail {
 
 .has-link-black-ter {
 	color: #242424 !important
+}
+
+.px-7 {
+	padding-left: 10rem !important;
+	padding-right: 10rem !important;
 }
 
 @media screen and (max-width:768px) {
@@ -1058,11 +1063,6 @@ img.thumbnail {
 .has-link-black-ter,
 .has-link-grey {
 	transition: .2s ease
-}
-
-.has-link-black-ter:hover,
-.has-link-grey:hover {
-	color: #3273dc !important
 }
 
 .has-link-grey {
