@@ -248,7 +248,9 @@ $(function() {
     autoPlay: true,
     arrShow: true,
     dotShow: true,
-    touch: true
+    touch: true,
+	width: 354,
+      height: 354,
   });
 });
 
