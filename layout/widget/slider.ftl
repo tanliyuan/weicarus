@@ -13,7 +13,7 @@
                 </div>
             </div>
                       	<@slider_tag.sliderTagMacro/>
-            <div class="column is-5">
+            <div class="column is-5 is-hidden-mobile">
                 <#list posts.content as post>
                     <#if post?index gt 10>
                         <#break>

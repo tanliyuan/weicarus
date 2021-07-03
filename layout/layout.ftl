@@ -67,7 +67,7 @@
 </head>
 <body class="is-3-column">
 	<@navbar 'page' />
-    <section class="section px-7">
+    <section class="section">
         <div class="container">
           	<#if settings.advert_enable!false>
           		<#include "common/advert.ftl">
