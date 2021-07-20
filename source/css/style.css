@@ -169,6 +169,11 @@ img.thumbnail {
 	padding: 1.25rem .75rem
 }
 
+.navbar-sticky {
+	position: sticky;
+	top: 0;
+}
+
 .navbar-main .navbar-item.is-active {
 	color: #3273dc;
 	background-color: transparent
@@ -1496,4 +1501,11 @@ figure.highlight .title {
 }
 .notice-content>i{
   color: #b1131b;
+}
+
+/**  列表分隔线 */
+.has-bottom-line .card:not(:last-child)::after {
+	content: '';
+	display: block;
+	border-bottom: 1px dashed #d7d7d7;
 }

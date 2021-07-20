@@ -26,6 +26,9 @@
                 </div>
             </div>
         </div>
+        <div class="level-item has-text-centered-mobile">
+            本网站由<a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"><img src="https://z3.ax1x.com/2021/07/15/WeqnvF.png" style="height: 24px;"></a>提供CDN加速/云存储服务
+        </div>
     </div>
 </footer>
 

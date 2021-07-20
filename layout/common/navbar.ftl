@@ -1,5 +1,5 @@
 <#macro navbar layout>
-<nav class="navbar is-white" role="navigation" aria-label="main navigation">
+<nav class="navbar is-white navbar-sticky" role="navigation" aria-label="main navigation">
     <div class="container">
 		<div class="navbar-brand">
 			<a class="navbar-item navbar-logo" href="${blog_url!}">
